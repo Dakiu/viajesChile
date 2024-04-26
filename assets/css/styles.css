@@ -10,3 +10,12 @@ body{
 .rectanguloCeleste{
     background-color: #0DCAF0;
 }
+
+.card{
+    background-color: #0DCAF0;
+}
+
+footer{
+    background-color: #0DCAF0; 
+    color: white;
+}
