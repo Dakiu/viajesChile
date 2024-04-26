@@ -3,7 +3,7 @@ body{
     background-color: black;
 }
 .navbar-light .navbar-nav .nav-link .navbar-brand{
-    color: #fff; /* White color */
+    color: #fff;
   }
 
 .rectanguloCeleste{
@@ -32,3 +32,24 @@ hr{
     background-color: #ccc;
     border: none;
 }
+/*Google Font*/
+.lato{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.playfair{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
