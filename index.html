@@ -20,8 +20,9 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="assets/img/viajes.svg" alt="" width="86" height="25">
-            </a>Viajes Chile
+                <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Viajes Chile
+              </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,10 +34,10 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Quienes Somos</a>
+                        <a class="nav-link" aria-current="page" href="#quienesSomos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Destacados</a>
+                        <a class="nav-link" aria-current="page" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Contacto</a>
@@ -71,8 +72,10 @@
     </div>
 
     <div class="container">
-        <section>
-            <h1 class="text-center">¿QUIÉNES SOMOS?</h1>
+        <section id="quienesSomos" class="d-none d-lg-block">
+            <br><br>
+            <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
+            <br><br>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="rectanguloCeleste text-center">
@@ -112,13 +115,14 @@
             </div>
 
         </section>
-
-        <section class="container">
-            <h1 class="text-center">DESTACADOS</h1>
+        <br><br>
+        <section class="container" id="destacados">
+            <h2 class="text-center">DESTACADOS</h2>
+            <br><br>
             <div class="row justify-content-center">
                 <div class="col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="card1" width="286" height="192">
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -127,7 +131,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="card2" width="286" height="192">
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -136,7 +140,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="card3" width="286" height="192">
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -145,7 +149,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="card4" width="286" height="192">
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -161,55 +165,56 @@
                 <h3 class="roboto-medium tituloCupones text-center">CONTACTO</h3>
                 <form>
                     <div class="form-group">
-                      <label for="exampleInputEmail1">Nombre</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                        <label for="exampleInputEmail1">Nombre</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputPassword1">Asunto</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                        <label for="exampleInputPassword1">Asunto</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Example textarea</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
+                    </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
-                  </form>
+                </form>
             </div>
         </div>
     </div>
-        <br>
-        <!-- FOOTER -->
-<!-- Footer -->
-<footer class="text-center text-lg-start">
-    <!-- Section: Social media -->
-    <div class="container">
+    <br>
+    <!-- FOOTER -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+        <!-- Section: Social media -->
+        <div class="container">
 
-   
-    <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>VIAJES CHILE</span>
-      </div>
-      <!-- Left -->
-  
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
-          </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
-          </a>  
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </div>
-    </section>
-</div>
-  </footer>
+
+            <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>VIAJES CHILE</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </footer>
 
 
 
