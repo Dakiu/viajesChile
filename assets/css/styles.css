@@ -2,10 +2,9 @@ body{
     color:#fff;
     background-color: black;
 }
-
-.navbar{
-    background: #3292A0;
-}
+.navbar-light .navbar-nav .nav-link .navbar-brand{
+    color: #fff; /* White color */
+  }
 
 .rectanguloCeleste{
     background-color: #0DCAF0;
@@ -23,3 +22,13 @@ footer{
 html{
     scroll-behavior: smooth;
   }
+
+.blanco{
+    color: #fff; 
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
